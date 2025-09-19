@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+        }
+        
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            z-index: 100;
+        }
+        
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .nav a:hover {
+            color: #007bff;
+        }
+        
+        .container {
+            display: flex;
+            margin-top: 60px;
+            min-height: calc(100vh - 60px);
+        }
+        
+        .ad-left, .ad-right {
+            width: 160px;
+            position: sticky;
+            top: 70px;
+            height: fit-content;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .content {
+            flex: 1;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="romance.html">Romance</a></li>
+            <li><a href="fantasy.html">Fantasy</a></li>
+            <li><a href="office.html">Office</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <aside class="ad-left">
+            <div>AD SPACE</div>
+            <div>160x600</div>
+        </aside>
+        
+        <main class="content">
+            <h1>Top 10 Twitch Streamers of 2024</h1>
+            <p>The streaming landscape continues to evolve, with creators pushing boundaries and building massive communities. Here are the streamers who dominated Twitch in 2024, each bringing their unique style and personality to millions of viewers worldwide.</p>
+            
+            <p><strong>1. xQc (Félix Lengyel)</strong> - The former Overwatch pro maintains his position as Twitch's most-watched streamer, averaging over 70,000 viewers with his variety content and infectious energy.</p>
+            
+            <p><strong>2. Ninja (Tyler Blevins)</strong> - Though he's expanded beyond gaming, Ninja's return to consistent Twitch streaming has reignited his massive fanbase with a mix of Fortnite, variety games, and special events.</p>
+            
+            <p><strong>3. Pokimane (Imane Anys)</strong> - The queen of Twitch continues to dominate with her engaging personality, gaming content, and strong community interaction that keeps viewers coming back daily.</p>
+            
+            <p><strong>4. Shroud (Michael Grzesiek)</strong> - His incredible aim and calm demeanor in FPS games make him a must-watch for competitive gaming fans, consistently pulling in 50,000+ concurrent viewers.</p>
+            
+            <p><strong>5. Ludwig (Ludwig Ahgren)</strong> - Known for his creative content and record-breaking subathons, Ludwig has mastered the art of variety streaming and community engagement.</p>
+            
+            <p>The remaining top 10 includes HasanAbi for political commentary, Summit1g for consistent gaming content, TimTheTatman for his humor, LIRIK for variety gaming, and Amouranth for her diverse content strategy.</p>
+            
+            <p>These streamers have built their success through consistency, community engagement, and adapting to platform changes while maintaining their authentic personalities that viewers love.</p>
+        </main>
+        
+        <aside class="ad-right">
+            <div>AD SPACE</div>
+            <div>160x600</div>
+        </aside>
+    </div>
+</body>
+</html>
